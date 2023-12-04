@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Health Advisory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #4CAF50;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .container {
+            margin: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .advisory-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .advisory-image {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .advisory-details {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>COVID-19 Health Advisory</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Prevention</a>
+        <a href="#">Symptoms</a>
+        <a href="#">Vaccination</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section>
+            <div class="advisory-card">
+                <img src="covid_advisory.jpg" alt="COVID-19 Advisory" class="advisory-image">
+                <div class="advisory-details">
+                    <h2>Stay Informed</h2>
+                    <p>Get the latest information on COVID-19, including symptoms, prevention, and vaccination.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="advisory-card">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="button-container">
+                    <button>Watch Video</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="advisory-card">
+                <h2>Prevention Tips</h2>
+                <ul>
+                    <li>Wash your hands frequently</li>
+                    <li>Wear a mask</li>
+                    <li>Maintain social distance</li>
+                    <li>Stay home if you feel unwell</li>
+                    <li>Get vaccinated</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="advisory-card">
+                <h2>Contact Us</h2>
+                <p>Have questions or concerns? Reach out to us.</p>
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+                <button>Contact</button>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2023 COVID-19 Health Advisory
+    </footer>
+
+</body>
+
+</html>
